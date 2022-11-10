@@ -27,15 +27,15 @@ namespace point
                 this.centre = centre;
                 this.rayon = rayon;
             }
-            public double perimetre (double rayon )          
-    {
-        return 2 * Math.PI * rayon;
-                return peri ;
-            }
-            public double Surface(double rayon)
+           public double  circonférence (double diamètre){
+           return Math.PI * diamètre;
+           }
+           
+            public double AiR (double rayon)
     {
         return Math.PI * rayon * rayon;
     }
+            
         }
     }
 }
